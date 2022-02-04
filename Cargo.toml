@@ -17,7 +17,7 @@ dotenv = "0.15"
 tokio = { version = "1", features = ["full"] }
 
 libsqlite3-sys = { version = "^0", features = ["bundled"] }
-libpq-sys = "0.6.0"
+libpq-sys = "^0"
 
 diesel = { version = "1", features = ["postgres", "sqlite", "r2d2", "chrono"] }
 chrono = { version = "0", default-features = false, features = ["clock", "std", "serde"] }
